@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"types": ["pixi.js"],
+		"noEmit": true,
+		"lib": ["es2015", "dom"],
+		"declaration": true
+	},
+	"include": [
+		"src/**/*.ts"
+	]
+}

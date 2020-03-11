@@ -1,0 +1,17 @@
+{
+  "name": "rollup-ts-bug",
+  "version": "1.0.0",
+  "description": "Repo to display a rollup-plugin-ts bug",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pixi.js": "^4.0.0",
+    "rollup": "^2.0.3",
+    "rollup-plugin-ts": "^1.2.14",
+    "typescript": "^3.8.3"
+  }
+}
