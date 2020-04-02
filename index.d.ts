@@ -5,6 +5,11 @@ declare namespace utils$0 {
     function blah(): string;
 }
 declare class Foo {
-    bar: utils$0.EventEmitter;
+    bar: utils.EventEmitter;
 }
-export { emitter, utils$0 as utils, Foo };
+declare namespace libRef { }
+interface Problem {
+    foo: libRef.Foo;
+    doAThing: (ref: typeof libRef) => void;
+}
+export { Foo as F, utils$0 as utils, emitter, Problem };

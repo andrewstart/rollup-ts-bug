@@ -14,4 +14,4 @@ var Foo = /** @class */ (function () {
     return Foo;
 }());
 
-export { Foo, emitter, utils };
+export { Foo as F, emitter, utils };

@@ -1,3 +1,4 @@
-export * from './moduleB';
-export * from './utils';
-export * from './moduleA';
+// This file is the entry point of the library as a whole
+
+export * from './libRef';
+export * from './ProblemFile';
